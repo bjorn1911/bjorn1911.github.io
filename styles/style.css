@@ -1,26 +1,36 @@
-
-
-h1 {
-    font-family: "Faculty Glyphic", sans-serif;
-    /* font-size: 25px; */
-    font-weight: 400;
-    font-style: normal;
-}
-h2 {
-    font-family: "Faculty Glyphic", sans-serif;
-    /* font-size: 18px; */
-    font-weight: 400;
-    font-style: normal;
+html {
+    background-color: rgb(255, 253, 250);
 }
 
+body {
+  width: 493px;
+  height: 60%;
+  margin: 5% auto;
+  background-color: #e2ebdd;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid rgb(94, 96, 80);
+}
 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1, h2 {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 1px rgb(142, 142, 142);
+}
 
 p {
     font-style: normal;
     font-family: "Lexend Deca", sans-serif;
     font-optical-sizing: auto;
     font-weight: 270;
-    ont-style: normal;
+    font-style: normal;
+    text-shadow: 0px 0px 1px rgb(143, 143, 143);
 }
 
 dl {
@@ -29,12 +39,12 @@ dl {
 }
 
 dt {
-    /* font-size: 12px; */
     font-weight: bold;
     font-family: "Lexend Deca", sans-serif;
     font-optical-sizing: auto;
     font-weight: 360;
     font-style: normal;
+    text-shadow: 0px 0px 1px rgb(34, 34, 34);
 }
 
 dd {
@@ -43,6 +53,6 @@ dd {
     font-optical-sizing: auto;
     font-weight: 270;
     font-style: normal;
-    /* font-size: 11px; */
     margin: 0;
+    text-shadow: 1px 1px 1px rgb(#e2ebdd);
 }
